@@ -4,10 +4,10 @@ Este repositório contém três versões/aplicações web desenvolvidas para apr
 
 O repositório está dividido em três pastas distintas, cada uma contendo a sua própria estrutura de arquivos.
 
-📂 Estrutura do Repositório
+📁 Estrutura do Repositório
 
+```text
 teste-api-maps/
-│
 ├── Leaflet/                     # Versão do projeto usando a biblioteca Leaflet
 │   ├── estrutura.html           # Estrutura da página
 │   ├── estilo.css               # Estilização (layout e mapa)
@@ -20,7 +20,8 @@ teste-api-maps/
 │
 └── GoogleMaps/                  # Versão do projeto usando a incorporação do Google Maps
     ├── estrutura.html           # Estrutura da página
-    ├── estilo.css               # Estilização (layout e iframe do mapa)
+    └── estilo.css               # Estilização (layout e iframe do mapa)
+```
     
 
  Como Configurar e Executar Localmente
