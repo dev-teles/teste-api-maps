@@ -1,8 +1,8 @@
 Projetos de Localização: Memorial Parque das Montanhas
 
-Este repositório contém duas versões/aplicações web desenvolvidas para apresentar a localização exata do Memorial Parque das Montanhas utilizando mapas interativos da biblioteca LeafLet e da API Mapbox.
+Este repositório contém três versões/aplicações web desenvolvidas para apresentar a localização exata do Memorial Parque das Montanhas utilizando mapas interativos da biblioteca LeafLet, da API Mapbox e da ferramenta de incorporar do GoogleMaps.
 
-O repositório está dividido em duas pastas distintas, cada uma contendo a sua própria estrutura de arquivos.
+O repositório está dividido em três pastas distintas, cada uma contendo a sua própria estrutura de arquivos.
 
 📂 Estrutura do Repositório
 
@@ -13,11 +13,14 @@ meu-repositorio/
 │   ├── estilo.css             # Estilização (layout e mapa)
 │   └── maquinario.js          # Lógica do Mapbox e marcadores
 │
-└── MapBox/                 #  versão do projeto usando a API MapBox
-    ├── estrutura.html         
-    ├── estilo.css             
-    └── maquinario.js          
-
+├── MapBox/                 #  versão do projeto usando a API MapBox
+│   ├── estrutura.html         
+│   ├── estilo.css             
+│   └── maquinario.js          
+│
+├── GoogleMaps/                 #  versão do projeto usando o incorporar do GoogleMaps
+│   ├── estrutura.html         
+│   ├── estilo.css
 
  Como Configurar e Executar Localmente
 
@@ -27,7 +30,7 @@ Clone este repositório:
 
 git clone https://github.com/dev-teles/teste-api-maps
 
-No caso do projeto MapBox, crie uma conta e gere um token no Mapbox.com:
+No caso do projeto MapBox, crie uma conta e gere um token em mapbox.com:
 
 Copie o seu Access Token público (geralmente começa com pk.).
 
@@ -41,4 +44,4 @@ mapboxgl.accessToken = 'pk.coloca_o_teu_token_aqui';
 
 Inicie a aplicação:
 
-Abra o arquivo estrutura.html diretamente no seu navegador. Não é necessário um servidor local.
+O projeto LeafLet e GoogleMaps não necessitam de token API. Abra o arquivo estrutura.html diretamente no seu navegador. Não é necessário um servidor local.
