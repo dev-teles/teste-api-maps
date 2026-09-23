@@ -6,21 +6,22 @@ O repositório está dividido em três pastas distintas, cada uma contendo a sua
 
 📂 Estrutura do Repositório
 
-meu-repositorio/
+teste-api-maps/
 │
-├── LeafLet/                 # versão do projeto usando LeafLet library
-│   ├── estrutura.html         # Estrutura da página
-│   ├── estilo.css             # Estilização (layout e mapa)
-│   └── maquinario.js          # Lógica do Mapbox e marcadores
+├── Leaflet/                     # Versão do projeto usando a biblioteca Leaflet
+│   ├── estrutura.html           # Estrutura da página
+│   ├── estilo.css               # Estilização (layout e mapa)
+│   └── maquinario.js            # Lógica do Leaflet e marcadores
 │
-├── MapBox/                 #  versão do projeto usando a API MapBox
-│   ├── estrutura.html         
-│   ├── estilo.css             
-│   └── maquinario.js          
+├── Mapbox/                      # Versão do projeto usando a API Mapbox
+│   ├── estrutura.html           # Estrutura da página
+│   ├── estilo.css               # Estilização (layout e mapa)
+│   └── maquinario.js            # Lógica do Mapbox e marcadores
 │
-├── GoogleMaps/                 #  versão do projeto usando o incorporar do GoogleMaps
-│   ├── estrutura.html         
-│   ├── estilo.css
+└── GoogleMaps/                  # Versão do projeto usando a incorporação do Google Maps
+    ├── estrutura.html           # Estrutura da página
+    ├── estilo.css               # Estilização (layout e iframe do mapa)
+    
 
  Como Configurar e Executar Localmente
 
