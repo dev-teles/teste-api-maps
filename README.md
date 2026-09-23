@@ -6,8 +6,9 @@ O repositório está dividido em três pastas distintas, cada uma contendo a sua
 
 📁 Estrutura do Repositório
 
-```text
+```
 teste-api-maps/
+
 ├── Leaflet/                     # Versão do projeto usando a biblioteca Leaflet
 │   ├── estrutura.html           # Estrutura da página
 │   ├── estilo.css               # Estilização (layout e mapa)
