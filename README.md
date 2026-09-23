@@ -1,6 +1,6 @@
 Projetos de Localização: Memorial Parque das Montanhas
 
-Este repositório contém duas versões/aplicações web desenvolvidas para apresentar a localização exata do Memorial Parque das Montanhas utilizando mapas interativos da biblioteca LeafLet e da API do Mapbox.
+Este repositório contém duas versões/aplicações web desenvolvidas para apresentar a localização exata do Memorial Parque das Montanhas utilizando mapas interativos da biblioteca LeafLet e da API Mapbox.
 
 O repositório está dividido em duas pastas distintas, cada uma contendo a sua própria estrutura de arquivos.
 
